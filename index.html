@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="img_header">
+            <img src="	http://webeducational.in/images/logo.png" alt="">
+            <div class="text_header">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>About University</li>
+                    <li>Courses & Fee</li>
+                    <li>Career</li>
+                    <li>Download</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+
+            <img src="https://beacon.com/wp-content/uploads/2021/09/AdobeStock_223700362-1688x600.jpeg"
+                style="width:100%;height: 600px;">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="http://mamidhebebi.al/wp-content/uploads/2019/08/Fotolia_61809310_Subscription_Monthly_M-1-1688x600.jpg"
+                style="width:100%;height: 600px;">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="https://www.sciencemuseumgroup.org.uk/wp-content/uploads/2019/03/building-bridges-hero-1700x600.jpg"
+                style="width:100%;height:   600px;">
+
+        </div>
+
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
+    <div class="img_duoi">
+        <img src="./Images/br3.jpg" alt="">
+    </div>
+    <div class="br">
+        <div class="content">
+            <div class="content2">
+                <h3>
+                    WEB EDUCATIONAL INSTITUTE is an
+                </h3>
+                <h1>
+                    Innovative Educational
+                </h1>
+                <h1>
+                    Group of India.
+                </h1>
+                <p>
+                    The Web Educational Institute (WEI) has consistently displayed full awareness of its social
+                    responsibilities through the
+                    Web Educational Society (WES), a 'not for profit' Trust. The Group believes that Education is
+                    the
+                    cornerstone to
+                    economic development and which alone can assist build India into a developed nation. WEI
+                    Committed
+                    to
+                    delivering
+                    excellence from diploma level education to higher level education, postdoctoral, vocational
+                    training
+                    and
+                    research.
+                </p>
+                <p class="p2">
+                    A personalized approach to Learning is to puts our students at the heart of everything we do.
+                </p>
+            </div>
+            <div class="content3">
+                <img src="http://webeducational.in/img/wei-home.jpg" alt="">
+            </div>
+            <div class="content4">
+                <p>Studies and research on the life WEI believes in spreading education among educationally backward
+                    classes and
+                    communities were the other commitment. In consonance with these expectations, WEI is promoting
+                    education in such fields
+                    as science, arts, management, information technology, industrial technology, environment,
+                    planning
+                    and architecture.
+                    Carefully nurtured by committed academia, the WEI has carved a niche for itself in the academic
+                    world.</p>
+                <p>WEI have developed a flexible learning structure, so that students can build a program that suits
+                    their individual
+                    needs. From vocational learning to postdoctoral studies, students have more options. WEI has
+                    earned
+                    a big reputation for
+                    high-impact research. WEI have Industry Based Learning Centers that respond to industry and
+                    government priorities, and
+                    society needs.</p>
+                <p>WEI driven to find innovative research solutions to real world problems.</p>
+                <p>At WEI we seek solution for real problems. So we collaborate with industry to ensure our
+                    graduates
+                    are work ready, and
+                    able to meet the challenge of industry needs.</p>
+                <p>At WEI we're committed to genuine sustainability. Our Social and built environment are designed
+                    with
+                    the most up-to-date
+                    sustain ability principles.</p>
+                <p>Sustainability is embedded in our teaching, learning and research, so that we are working on
+                    practical solutions for the
+                    21st Century. We know our future depends on it.
+                </p>
+
+                <button class="button"><span>Read More </span></button>
+
+            </div>
+        </div>
+        <div class="body">
+            <div class="body1">
+                <div class="body1_img">
+                    <img src="	http://webeducational.in/img/our-vision.jpg" alt="" width="583" height="400">
+                    <div class="body1_text">
+                        <h1>
+                            Our Vision
+                        </h1>
+                        <p>
+                            The vision of the Web Educational Institute is to provide world class quality education
+                            at
+                            affordable cost so that even
+                            those students who are living under the poverty line can opt for higher education and
+                            compete with the general society.
+                            We believe in giving best education to all with innovative & latest curriculum based on
+                            Indian & International standards
+                            through distance learning education / correspondence programs.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="body2">
+                <div class="body2_img">
+                    <img src="http://webeducational.in/img/our-mission.jpg" alt="" width="583" height="400">
+                    <div class="body2_text">
+                        <h1>
+                            Our Mission
+                        </h1>
+                        <p>
+                            Our aim is to be a Learning Organization which will use measuring and monitoring tools
+                            to continually enhance the
+                            effectiveness of its students, thereby to differentiate itself as an Academy that is
+                            continually renewing and
+                            transforming itself to meet the changing needs of its students. Our objective is to
+                            deliver the highest quality distance
+                            education programs through innovative forms of flexible distance learning mode,
+                            leveraging the latest technology
+                            platform. WEI fits student’s calendar, harmonizes with their career & compliments
+                            student’s personal endeavors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer">
+            <div class="footer1">
+                <div class="footer_text">
+                    <h1>
+                        30,000+
+                    </h1>
+                    <p>
+                        Students enrolled
+                    </p>
+                </div>
+                <div class="footer_text">
+                    <h1>
+                        41,000+
+                    </h1>
+                    <p>
+                        Courses Uploaded
+                    </p>
+                </div>
+                <div class="footer_text">
+                    <h1>
+                        11,000+
+                    </h1>
+                    <p>
+                        People certificate
+                    </p>
+                </div>
+                <div class="footer_text">
+                    <h1>
+                        39,000+
+                    </h1>
+                    <p>
+                        Global Teachers
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer2">
+                <div class="footer2_text">
+                    <img src="http://webeducational.in/images/logo.png" alt="">
+                    <li style="list-style: none;padding-top: 20px;">
+                        The Web Educational Institute (WEI) has consistently displayed full awareness of its social
+                        responsibilities through the
+                        Web Educational Society (WES), a 'not for profit' Trust.
+                    </li>
+                </div>
+                <div class="footer2_text">
+                    <h2>Courses</h2>
+                    <ul>
+                        <li>Traditional Department</li>
+                        <li>Management Department</li>
+                        <li>Computing & It Department</li>
+                        <li>Engineering Department</li>
+                        <li>Vocational Department</li>
+                    </ul>
+                </div>
+                <div class="footer2_text">
+                    <ul>
+                        <li>Paramedical & Healthcare Department</li>
+                        <li>Media & Communication Department</li>
+                        <li>Hospitality & Tourism Department</li>
+                        <li>Humanities, Education & Juridical Science</li>
+                        <li>Research & Doctorate Programs</li>
+                    </ul>
+                </div>
+                <div class="footer2_text">
+                    <h2>Contact Us</h2>
+                    <ul>
+
+
+                        <li style="list-style-image: url(./Images/icon1.jpg);">205, Second Floor, Arambh Complex, Ankur
+                            Cross Road, Naranpura,
+                            Ahmedabad-380013
+                            (Gujarat)
+                        </li>
+
+                        <li style="list-style-image: url(./Images/icon2.jpg);">+91 8866834941</li>
+                        <li style="list-style-image: url(./Images/icon3.jpg);">webeducationinstitute@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

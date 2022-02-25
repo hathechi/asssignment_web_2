@@ -1,0 +1,246 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: #07294d;
+    height: 96px;
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block; */
+   
+}
+.img_header{
+line-height: 96px;
+ width: 80%;
+
+}
+
+.text_header{
+display: inline-block;
+float: right;
+color: #fff;
+padding-right: 60px;
+font-size: 18px;
+}
+
+.text_header ul li{
+display: inline-block;
+margin: 0 10px;
+}
+.text_header ul li:hover{
+    color: #ffc600;
+}
+/* slide_show ----------------------------------------*/
+.slideshow-container {
+  max-width: 100%;
+  
+  /* position: relative; */
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.img_duoi{
+   
+    position: absolute;
+    bottom:-80px;
+    left: 100px;
+}
+.img_duoi img{
+ width: 1300px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+}
+.br{
+      background: url(http://webeducational.in/images/about/shape.png);
+}
+.content{
+    width: 80%;
+    margin-top: 150px;
+}
+.content2{
+    width: 50%;
+    float: left;
+}
+.content2 h3{
+    padding-bottom: 20px;
+}
+.content2 h1{
+    padding-bottom: 5px;
+}
+.content2 p,.content4 p{
+    padding-top: 30px;
+}
+.content3 img{
+margin-left: 30px;
+border-radius:6px ;
+
+}
+p{
+    opacity: 0.8;
+}
+/* ------------ BUTTON-------------------- */
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+ 
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+    margin: 40px 0px 60px 0px;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover{
+    background-color: #07294d;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* ----------------------------------- */
+
+.body{
+  width: 80%;
+   
+
+}
+
+.body1{
+  width: 48%;
+  float: left;
+  
+  
+}
+.body1_img, .body2_img{
+  width: 100%;
+  height: 730px;
+    background-color: #07294d;
+}
+.body1_text, .body2_text{
+
+  color: #fff;
+  padding: 30px;
+   text-align: justify;
+  letter-spacing: 1px;
+}
+.body1_text h1, .body2_text h1{
+  padding-bottom: 20px;
+}
+.body2{
+  width: 48%;
+  
+  float: right;
+ 
+}
+
+.footer{
+  clear: both;
+  
+  width: 100%;
+  margin-top: 800px;
+   background: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202201/e-learning_digital_education.jpg?HzwXFtJYTWU.Jo9WpN6NomuJ1x8UPznR&size=770:433)  ;
+   opacity: 0.8;
+}
+
+
+.footer1{
+  height: 185px;
+
+  width: 80%;
+  display: flex;
+  text-align: center;
+ 
+  
+  
+
+}
+.footer_text{
+  width: 25%;
+  
+}
+.footer_text h1{
+padding-top: 22%;
+color: #ffc600;
+}
+.footer_text p{
+color: #fff;
+}
+.footer_bottom{
+  width: 100%;
+  background-color: #07294d;
+  height: 330px;
+}
+.footer2{
+  width: 80%;
+  display: flex;
+  padding-top: 5px;
+}
+.footer2 .footer2_text{
+  width: 25%;
+  color: #fff;
+  text-align: justify;
+  padding: 20px;
+}
+.footer2 .footer2_text h2{
+  color: #ffc600;
+}
+.footer2 .footer2_text ul li{
+  margin: 10px;
+  
+}
+.footer2 .footer2_text ul{
+  padding-top: 30px;
+}
